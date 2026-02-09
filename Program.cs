@@ -324,6 +324,86 @@ while (true)
     }
 }
 
+// 6
+
+// Console.WriteLine("Coloque um numero para verificar se é primo: ");
+// int num = int.Parse(Console.ReadLine());
+// int contador = 0;
+// for(int i = 1; i>num+1; i++){
+//     if(num%i == 0)
+//     {
+//         contador++;
+//     }
+// }
+// if(contador == 2)
+// {
+//     Console.WriteLine("É primo");   
+// }else{
+//     Console.WriteLine("nao é primo");
+// }
+
+Console.WriteLine("Coloque um numero para fazer fatorial");
+int num = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Mostrando fatorial");
+int numSalva = num;
+for(int i = num-1; i > 0; i--)
+{
+    numSalva = numSalva*i;
+}
+Console.WriteLine($"Resultado {numSalva}");
+
+int contador = 0;
+while (true)
+{
+    if(contador == 3) break;
+    Console.WriteLine("Coloque a senha: ");
+    string senha = Console.ReadLine();
+    if(senha == "1234")
+    {
+        Console.WriteLine("Logado com sucesso!");
+        break;
+    }
+    else
+    {
+        Console.WriteLine($"Tente novamente, tentativa: {contador+1}/3");
+    }
+    contador++;
+}
+
+float valor = 300;
+while (true)
+{
+    if(valor == 0) break;
+    Console.WriteLine($"Valor: {valor}");
+    Console.WriteLine("1. Saque\n2. sair");
+    int opc = int.Parse(Console.ReadLine());
+    
+    if(opc == 2) break;
+    else if (opc == 1)
+    {
+        Console.WriteLine("Coloque o valor que deseja sacar: ");
+        float valorSaque = float.Parse(Console.ReadLine());
+        if(valorSaque< valor)
+        {
+            valor-=valorSaque;
+        }
+        else
+        {
+            Console.WriteLine("Valor maior que o saldo");
+        }
+    }
+}
+
+Console.WriteLine("Coloque uma sequencia de numeros(0 para sair): ");
+int maior = 0;
+while (true)
+{
+    int num = int.Parse(Console.ReadLine());
+    if(num == 0) break;
+    if(num> maior) maior = num;
+}
+Console.WriteLine($"Maior numero: {maior}");
 
 
 
