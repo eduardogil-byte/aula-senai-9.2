@@ -1,0 +1,14 @@
+C:\Users\486973624\Documents\senai9.2\bin\Debug\net8.0\senai9.2.exe
+C:\Users\486973624\Documents\senai9.2\bin\Debug\net8.0\senai9.2.deps.json
+C:\Users\486973624\Documents\senai9.2\bin\Debug\net8.0\senai9.2.runtimeconfig.json
+C:\Users\486973624\Documents\senai9.2\bin\Debug\net8.0\senai9.2.dll
+C:\Users\486973624\Documents\senai9.2\bin\Debug\net8.0\senai9.2.pdb
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\senai9.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\senai9.2.AssemblyInfoInputs.cache
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\senai9.2.AssemblyInfo.cs
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\senai9.2.csproj.CoreCompileInputs.cache
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\senai9.2.dll
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\refint\senai9.2.dll
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\senai9.2.pdb
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\senai9.2.genruntimeconfig.cache
+C:\Users\486973624\Documents\senai9.2\obj\Debug\net8.0\ref\senai9.2.dll
